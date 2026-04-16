@@ -12,23 +12,25 @@ This board integrates the **TP4056** charging IC with a dedicated protection cir
 - **Protection:** Over-charge, over-discharge, and over-current/short-circuit protection.
 - **Indicators:** Dual onboard LEDs for charging status (Charging/Standby).
 
-## Hardware & Bill of Materials (BOM)
-Designator,Component,Description
-U1,TP4056,Lithium-Ion Battery Charger IC (SOP-8)
-U2,DW01A,Battery Protection IC (SOT-23-6)
-Q1,FS8205A,Dual N-Channel Power MOSFET (SOT-23-6)
-U5,TYPE-C-31-M-12A,USB Type-C 16-Pin Power Input Connector
-U3,DB127L-5.08-2P,2-Pin Screw Terminal Block (Battery Output)
-D1,ESD9B5V,ESD Protection Diode for USB Input
-LED1,Green LED (0603),Standby / Fully Charged Indicator
-LED2,Red LED (0603),Charging Process Indicator
-C1,10uF (SMD ECAP),Electrolytic Output Filtering Capacitor
-"C4, C5",10uF (0805),Ceramic Input/Output Decoupling Capacitors
-R1,1.2k Ohm (0805),Charge Current Setting Resistor (Sets 1A)
-R2,1k Ohm (0805),Protection IC Voltage Detection Resistor
-"R3, R5",1k Ohm (0805),Current Limiting Resistors for Status LEDs
-R4,100 Ohm (0805),Protection Circuit Current Sensing Resistor
-"R6, R7",5.1k Ohm (0805),USB-C CC1/CC2 Configuration Resistors
+## ## Hardware & Bill of Materials (BOM)
+
+| Designator | Component | Description |
+| :--- | :--- | :--- |
+| **U1** | TP4056 | Lithium-Ion Battery Charger IC (SOP-8) |
+| **U2** | DW01A | Battery Protection IC (SOT-23-6) |
+| **Q1** | FS8205A | Dual N-Channel Power MOSFET (SOT-23-6) |
+| **U5** | TYPE-C-31-M-12A | USB Type-C 16-Pin Power Input Connector |
+| **U3** | DB127L-5.08-2P | 2-Pin Screw Terminal Block (Battery Output) |
+| **D1** | ESD9B5V | ESD Protection Diode for USB Input |
+| **LED1** | Green LED (0603) | Standby / Fully Charged Indicator |
+| **LED2** | Red LED (0603) | Charging Process Indicator |
+| **C1** | 10uF (SMD ECAP) | Electrolytic Output Filtering Capacitor |
+| **C4, C5** | 10uF (0805) | Ceramic Input/Output Decoupling Capacitors |
+| **R1** | 1.2k Ohm (0805) | Charge Current Setting Resistor (Sets 1A) |
+| **R2** | 1k Ohm (0805) | Protection IC Voltage Detection Resistor |
+| **R3, R5** | 1k Ohm (0805) | Current Limiting Resistors for Status LEDs |
+| **R4** | 100 Ohm (0805) | Protection Circuit Current Sensing Resistor |
+| **R6, R7** | 5.1k Ohm (0805) | USB-C CC1/CC2 Configuration Resistors |
 
 ## Technical Design Details
 
