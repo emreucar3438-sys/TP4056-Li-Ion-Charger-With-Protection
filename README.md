@@ -14,7 +14,6 @@ This board integrates the **TP4056** charging IC with a dedicated protection cir
 
 ## Hardware & Bill of Materials (BOM)
 | Ref | Component | Description |
-| :--- | :--- | :--- |
 U1 =	TP4056	Lithium-Ion Battery Charger IC (SOP-8)
 U2 =	DW01A	Battery Protection IC (SOT-23-6)
 Q1 =	FS8205A	Dual N-Channel Power MOSFET (SOT-23-6)
